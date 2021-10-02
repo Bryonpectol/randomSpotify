@@ -8,6 +8,12 @@ main {
     text-align: center;
 }
 
+footer {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
 /* Mobile */
 @media only screen and (max-width: 600px) {
 
@@ -16,6 +22,12 @@ main {
         color: black;
         border-radius: 20px;
         padding: 5px;
+    }
+
+    .btn:hover {
+        cursor: pointer;
+        background-color: black;
+        color: lime;
     }
 
 }
