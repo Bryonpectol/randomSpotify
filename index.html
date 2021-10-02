@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>RSSG</title>
+        <title>Surprise Songs Daily</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/main.css">
@@ -13,9 +13,18 @@
        
 
         <main>
+
+            <p id="intro"></p>
+
+            <br />
+            
             <form id="form">
-                <input onclick="getSong()" type="submit" value="Generate Song" />
+                <input onclick="getSong()" type="submit" value="Generate Your Daily Surprise Song" />
             </form>
+
+            <!-- <iframe id="spotframe" src="" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> -->
+
+            <p id="totalSongs"></p>
         </main>
 
         <script src="/js/main.js"></script>
