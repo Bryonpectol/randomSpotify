@@ -8,11 +8,7 @@ main {
     text-align: center;
 }
 
-footer {
-    text-align: center;
-    font-style: italic;
-    font-size: 0.8em;
-}
+
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
@@ -28,6 +24,12 @@ footer {
         cursor: pointer;
         background-color: black;
         color: lime;
+    }
+
+    footer {
+        text-align: center;
+        font-style: italic;
+        font-size: 0.7em;
     }
 
 }
@@ -47,6 +49,12 @@ footer {
         cursor: pointer;
         background-color: black;
         color: lime;
+    }
+
+    footer {
+        text-align: center;
+        font-style: italic;
+        font-size: 0.8em;
     }
 
 }
